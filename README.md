@@ -22,7 +22,7 @@
 
 **Вы можете посмотреть проект в работе**
 
-* [Ссылка на проект в Gidhub Pages](https://romanpanchishniy.github.io/russian-travel/index.html)
+* [Ссылка на проект в Gidhub Pages](https://romanpanchishniy.github.io/mesto//index.html)
 
 
 Попробуйте изменить профиль, он активен и работает коректно!
