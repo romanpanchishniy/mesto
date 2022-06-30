@@ -6,13 +6,18 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+    max-width: 336px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:425px) {
     .profile__profession {
         font-size: 14px;
         line-height: 17px;
         text-align: center;
-        margin: 14px 0px 0px 0px;
+        max-width: 189px;
+        margin:14px 0px 0px 0px;
     }
 }
