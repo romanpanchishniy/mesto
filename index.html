@@ -17,7 +17,6 @@
     <!--Хед страницы-->
    <header class="header">
         <img src="./images/Mesto-white.svg" alt="Логотип Место" class="header__logo">
-        <div class="header__line"></div>
    </header>
 
    <!--Секция профайл-->
@@ -25,12 +24,12 @@
         <img src="./images/Kusto.svg" alt="Фото Жака Кусто" class="profile__avatar">
         <div class="profile__info-container">
             <div class="profile__info">
-                <h2 class="profile__name">Жак-Ив Кусто</h2>
+                <h1 class="profile__name">Жак-Ив Кусто</h1>
                 <p class="profile__profession">Исследователь океана</p>
             </div>
-            <button class="profile__edit-button"><img src="./images/Pen-icon.svg" alt="Иконка ручки"></button>
+            <button type="button" class="profile__edit-button"><img src="./images/Pen-icon.svg" alt="Иконка ручки"></button>
         </div>
-        <button class="profile__add-button"><img src="./images/plus-icon.svg" alt="Иконка плюса"></button>
+        <button type="button" class="profile__add-button"><img src="./images/plus-icon.svg" alt="Иконка плюса"></button>
    </section>
 
    <!--Секция места-->
@@ -38,43 +37,43 @@
         <div class="elements__card">
             <img src="./images/kirill-pershin.png" alt="Фото Карачаевск" class="elements__place">
             <div class="elements__text-container">
-                <h3 class="elements__title">Карачаевск</h3>
-                <img src="./images/like-icon.svg" alt="Иконка лайка" class="elements__like">
+                <h2 class="elements__title">Карачаевск</h2>
+                <button type="button" class="elements__like"><img src="./images/like-icon.svg" alt="Иконка лайка"></button>
             </div>
         </div>
         <div class="elements__card">
             <img src="./images/Elbrus.png" alt="Фото Горы Эльбрус" class="elements__place">
             <div class="elements__text-container">
-                <h3 class="elements__title">Гора Эльбрус</h3>
-                <img src="./images/like-icon.svg" alt="Иконка лайка" class="elements__like">
+                <h2 class="elements__title">Гора Эльбрус</h2>
+                <button type="button" class="elements__like"><img src="./images/like-icon.svg" alt="Иконка лайка"></button>
             </div>
         </div>
         <div class="elements__card">
             <img src="./images/Dombai.png" alt="Фото Домбая" class="elements__place">
             <div class="elements__text-container">
-                <h3 class="elements__title">Домбай</h3>
-                <img src="./images/like-icon.svg" alt="Иконка лайка" class="elements__like">
+                <h2 class="elements__title">Домбай</h2>
+                <button type="button" class="elements__like"><img src="./images/like-icon.svg" alt="Иконка лайка"></button>
             </div>
         </div>
         <div class="elements__card">
             <img src="./images/Elbrus.png" alt="Фото Горы Эльбрус" class="elements__place">
             <div class="elements__text-container">
-                <h3 class="elements__title">Гора Эльбрус</h3>
-                <img src="./images/like-icon.svg" alt="Иконка лайка" class="elements__like">
+                <h2 class="elements__title">Гора Эльбрус</h2>
+                <button type="button" class="elements__like"><img src="./images/like-icon.svg" alt="Иконка лайка"></button>
             </div>
         </div>
         <div class="elements__card">
             <img src="./images/Dombai.png" alt="Фото Домбая" class="elements__place">
             <div class="elements__text-container">
-                <h3 class="elements__title">Домбай</h3>
-                <img src="./images/like-icon.svg" alt="Иконка лайка" class="elements__like">
+                <h2 class="elements__title">Домбай</h2>
+                <button type="button" class="elements__like"><img src="./images/like-icon.svg" alt="Иконка лайка"></button>
             </div>
         </div>
         <div class="elements__card">
             <img src="./images/kirill-pershin.png" alt="Фото Карачаевск" class="elements__place">
             <div class="elements__text-container">
-                <h3 class="elements__title">Карачаево-Черкесия</h3>
-                <img src="./images/like-icon.svg" alt="Иконка лайка" class="elements__like">
+                <h2 class="elements__title">Карачаево-Черкесия</h2>
+                <button type="button" class="elements__like"><img src="./images/like-icon.svg" alt="Иконка лайка"></button>
             </div>
         </div>
    </section>
@@ -87,16 +86,16 @@
     <!--Попап-->
    <div class="popup">
     <div class="popup__container">
-        <img src="./images/Close-Icon.svg" alt="Иконка крестика" class="popup__close-icon">
+        <button type="button" class="popup__close-icon"><img src="./images/Close-Icon.svg" alt="Иконка крестика"></button>
         <h3 class="popup__title">Редактировать профиль</h3>
-        <form class="popup__input">
-            <input type="text" placeholder="Ф.И.О." class="popup__name">
-            <input type="text" placeholder="Профессия" class="popup__profession">
+        <form name="user-form" class="popup__form">
+            <input name="user-name" type="text" placeholder="Ф.И.О." class="popup__input popup__input_type_name">
+            <input name="user-profession" type="text" placeholder="Профессия" class="popup__input popup__input_type_profession">
             <button type="submit" class="popup__submit-btn">Сохранить</button>
         </form>
     </div>
 </div>
 
-   <script src="./index.js"></script>
+   <script src="./scripts/index.js"></script>
 </body>
 </html>

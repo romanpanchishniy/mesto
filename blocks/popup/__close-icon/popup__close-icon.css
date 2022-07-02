@@ -5,6 +5,11 @@
     height: 32px;
     width: 32px;
     cursor: pointer;
+    background-color: #000;
+    border: none;
+    display: grid;
+    justify-content: center;
+    align-self: center;
 }
 
 .popup__close-icon:hover {

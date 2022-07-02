@@ -1,4 +1,21 @@
 .popup__input {
-    display: flex;
-    flex-direction: column;
+    margin: 0px 36px 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    height: 27px;
+    border: none;
+    border-bottom: 1px solid #c7c1c1;
+}
+
+.popup__input:nth-child(2n) {
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width:425px) {
+    .popup__input {
+        margin: 0px 22px;
+    }
+    
 }

@@ -1,14 +1,13 @@
 const popup = document.querySelector (".popup");
 const openPopupButton = document.querySelector (".profile__edit-button");
 const closePopupButton = document.querySelector (".popup__close-icon");
-const popupSubmitButton = document.querySelector(".popup__input");
+const popupSubmitButton = document.querySelector(".popup__form");
 
 const profileName = document.querySelector(".profile__name");
 const profileProfession = document.querySelector(".profile__profession");
 
-let popupName = document.querySelector(".popup__name");
-let popupProfession = document.querySelector(".popup__profession");
-
+let popupName = document.querySelector(".popup__input_type_name");
+let popupProfession = document.querySelector(".popup__input_type_profession");
 
 const openPopup = function () {
     popup.classList.add("popup_opened");
@@ -18,7 +17,7 @@ const openPopup = function () {
 
 const closePopup = function () {
     popup.classList.remove("popup_opened");
-}
+};
 
 
 function formSubmitHandler (evt) {
